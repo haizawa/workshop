@@ -16,7 +16,7 @@ build() {
 start_odenos() {
   cd $ODENOS_HOME_DIR
   ./odenos stop
-  ./odenos start
+  ./odenos start -c $RUN_DIR/odenos.conf
   cd $RUN_DIR
 }
 stop_odenos() {

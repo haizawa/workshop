@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 ## remove proxy
 unset http_proxy
@@ -14,7 +14,7 @@ curl http://$ADDRESS:10080/systemmanager/component_managers | python -mjson.tool
 curl -w "$FORMAT" http://$ADDRESS:10080/systemmanager/components/network1 -X PUT -d \
 '{"id": "network1", "type": "Network"}'
 curl -w "$FORMAT" http://$ADDRESS:10080/systemmanager/components/learning_sw -X PUT -d \
-'{"id": "learning_sw", "type": "LeraningSwitch"}'
+'{"id": "learning_sw", "type": "LearningSwitch"}'
 curl -w "$FORMAT" http://$ADDRESS:10080/systemmanager/components/openflow_driver -X PUT -d \
 '{"id": "openflow_driver", "type": "OpenFlowDriver"}'
 

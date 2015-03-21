@@ -1,0 +1,13 @@
+#
+# Default settings for monitor
+#
+
+# Object IDs
+object_ids:
+  - resttranslator
+  - systemmanager
+  - romgr1
+  - romgr3
+  - learning_sw
+  - network0
+  - openflow_driver
