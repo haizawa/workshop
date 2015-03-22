@@ -2,7 +2,7 @@
 
 ```
 $ ./run-odenos.sh -s
-$ ~/trema-edge/trema run -d "./src/main/ruby/org/o3project/odenos/core/odenos.rb --cmpmgr=romgr3"
+$ ~/trema-edge/trema run -d "~/odenos/src/main/ruby/org/o3project/odenos/core/odenos.rb --cmpmgr=romgr3"
 ```
 
 * create components
